@@ -1,0 +1,294 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #0c2436;
+	background-image: url(../images/tooplate_wrapper.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+#tooplate_body_wrapper {
+	width: 100%;
+	background:  url(../images/tooplate_body.jpg) center top no-repeat;
+}
+
+#tooplate_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background:  url(../images/tooplate_body.jpg) center top no-repeat;
+}
+
+.header {
+	height: 50px;
+	padding: 40px 20px 10px;
+}
+
+.site-logo { 
+	float: left;
+}
+
+/*-------------------MEN-------------------*/
+
+.site-menu { 
+	float: right; 
+	margin-top: 10px; 
+}
+
+.site-menu ul { 
+	padding: 0; 
+	margin: 0; 
+	list-style: none; 
+}
+
+.site-menu ul li { 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+}
+
+.site-menu ul li a {
+	float: left;
+	display: block;
+	width: 105px;
+	height: 33px;
+	line-height: 29px;
+	font-size: 14px;
+	color: #fff;	
+	margin-left: 2px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	outline: none;
+}
+
+.site-menu a:hover {
+	color: #000;
+	background: url(../images/tooplate_menu_hover.png) center;
+}
+
+/* -------------------END OF MENU------------------- */
+
+#main {
+	clear: both;
+	width: 800px;
+}
+
+.content-title { 
+	width: 700px; 
+	height: 30px; 
+	padding: 15px 50px;
+	background: url(../images/tooplate_ct.png); 
+}
+
+.content-box {
+	padding: 30px 50px;
+	background: url(../images/tooplate_content.png); 
+}
+
+h2 { color: #FFFFFF; font-weight: normal; font-size: 25px; margin-top: 4px;}
+h3 { color: #000000; font-weight: normal; font-size: 25px; margin-top: 4px;}
+h4 { color: #000000; font-weight: normal; font-size: 20px; margin-top: 4px;}
+
+.image-1 {
+	float: left;
+	margin: 8px 18px 7px 0;
+}
+
+.image-border {
+	border: 5px solid white;
+}
+
+.orange {
+	color: #C60;
+}
+
+.green {
+	color: #399;
+}
+
+.cleaner { clear: both; }
+.h10 { height: 10px; }
+.h20 { height: 20px; }
+.h30 { height: 30px; }
+.h40 { height: 40px; }
+.h50 { height: 50px; }
+.h60 { height: 60px; }
+
+.сolumn-left { width: 340px; float: left;}
+.сolumn-right {width: 340px; float: right;}
+
+.tooplate-list { 
+	margin: 20px 0 20px 10px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.tooplate-list li { 
+	color:#375c06; 
+	margin: 0; 
+	padding: 0 0 5px 15px; 
+	background: url(../images/tooplate_list.png) no-repeat scroll 0 4px;  
+}
+
+.tooplate-list li a { 
+	color: #375c06; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+
+.tooplate-list li a:hover { 
+	color: #375c06; 
+	text-decoration: underline; 
+}
+
+.content-bottom { 
+	width: 800px; 
+	height: 49px; 
+	padding-top: 20px;  
+}
+
+.content-cb { 
+	background: url(../images/tooplate_gototop_bg.png); 
+}
+
+.image-2 {
+	float: right;
+	margin-left: 10px;
+}
+
+.post-box-left { 
+	width: 320px;
+	float: left;
+	margin-bottom: 30px; 
+	padding-bottom: 20px;  
+}
+
+.post-box-left p.post-meta { 
+	font-size: 10px; 
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0; 
+}
+
+.post-box-left h3 { 
+	font-size: 24px; 
+	line-height: 34px; 
+	margin-bottom: 15px; 
+}
+
+.post-box-left img {
+	float: left;
+	margin-right: 15px;
+	width: 80px;
+	height: 80px;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.post-box-right { 
+	width: 320px;
+	float: right;
+	margin-bottom: 30px; 
+	padding-bottom: 20px;  
+}
+
+.post-box-right p.post-meta { 
+	font-size: 10px; 
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0; 
+}
+
+.post-box-right h3 { 
+	font-size: 24px; 
+	line-height: 34px; 
+	margin-bottom: 15px; 
+}
+
+.post-box-right img { 
+	float: left; 
+	margin-right: 15px; 
+	width: 80px; 
+	height: 80px;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.photos-block {
+	justify-content: space-around; /*оцентрирует весь блок фотографий*/
+    display: flex; /*отображает элемент в качестве гибкого контейнера блочного уровня.*/
+    flex-wrap: wrap; /*cвойство определяет, должен ли элемент переноситься или нет.*/
+}
+
+.polaroid {
+	margin: 0 26px 26px 0;
+	//padding: 8px;
+	//width: 300px;
+}
+
+.polaroid .photo {
+    width: 300px;
+    height: 150px;
+    transition: all .25s ease-out; /*плавный переход, позволяет изменять значения свойств от одного значения к другому*/
+    box-shadow: 0 0 6px black; /*добавляет тень к элементу*/
+	/*первый 0 это сдвиг тени по оси х, то есть вправо
+	второй 0 это сдвиг тени по оси у, то есть вниз
+	6px это сама тень
+	black это ее цвет*/
+}
+
+.polaroid .photo:hover{
+/*трансформирует элемент, в частности, позволяет его масштабировать, вращать, сдвигать, наклонять, а также комбинировать виды трансформаций.*/
+	transform: scale(1.2);
+/*в данном примере трансформирует элемент по горизонтали и вертикали.*/
+}
+
+input {
+	width: 240px; 
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 12px;
+}
+
+textarea {
+	width: 288px; 
+	height: 150px; 
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 12px;
+}
+
+.button-position {
+	width: 288px;
+}
+
+.button-left {
+	float: left;
+	background: #559402;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #3d6b00;
+    padding: 2px 5px;
+}
+
+.button-right {
+	float: right;
+	background: #559402;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #3d6b00;
+    padding: 2px 5px;
+}
+
+a.gototop { 
+	display: block; 
+	width: 108px; 
+	margin: 0 auto; 
+	text-align: center; 
+	color: #fff; 
+	font-weight: 700; 
+	text-decoration: none; 
+}
